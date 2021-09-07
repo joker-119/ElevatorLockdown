@@ -25,7 +25,7 @@ namespace ElevatorLockdown
         public override string Name { get; } = "ElevatorLockdown";
         public override string Prefix { get; } = "ElevatorLockdown";
         public override Version Version { get; } = new Version(1, 0, 0);
-        public override Version RequiredExiledVersion { get; } = new Version(2, 11, 1);
+        public override Version RequiredExiledVersion { get; } = new Version(2, 14, 0);
 
         public EventHandlers EventHandlers { get; private set; }
         public Methods Methods { get; private set; }
